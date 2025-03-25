@@ -1,6 +1,3 @@
-import numpy as np
-
-
 class Scaler():
     def __init__(self,data):  # data.shape (N,C,L)  or (N,C)
         self.data = data

@@ -5,7 +5,6 @@ import torch
 from torch.utils.data import TensorDataset,DataLoader
 from sklearn.model_selection import train_test_split
 import os
-import matplotlib.pyplot as plt
 from utils.Scaler import Scaler
 
 class MITDdataset():
